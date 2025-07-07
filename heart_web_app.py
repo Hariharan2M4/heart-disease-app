@@ -15,7 +15,7 @@ def heart_disease_prediction(input_data):
 st.title("Heart Disease Prediction App")
 
 # Input fields
-age = st.number_input('Age')
+age = int(st.number_input('Age'))
 sex = st.selectbox('Sex (0 = Female, 1 = Male)', [0, 1])
 cp = st.number_input('Chest Pain Type (0–3)', 0, 3)
 trestbps = st.number_input('Resting Blood Pressure')
