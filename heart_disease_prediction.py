@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score
 """#Data collection and Processing"""
 
 #loading the csv data to a pandas dataframe
-heart_data = pd.read_csv('heart.csv')
+heart_data = pd.read_csv('heart-disease.csv')
 
 #print first 5 rows of the dataset
 heart_data.head()
